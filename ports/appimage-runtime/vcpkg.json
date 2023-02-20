@@ -1,0 +1,20 @@
+{
+  "name": "appimage-runtime",
+  "version": "1.0",
+  "port-version": 1,
+  "description": "",
+  "homepage": "",
+  "dependencies": [
+    {
+      "name": "squashfuse"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

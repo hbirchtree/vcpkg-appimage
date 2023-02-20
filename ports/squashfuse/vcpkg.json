@@ -1,0 +1,20 @@
+{
+  "name": "squashfuse",
+  "version": "0.1.105",
+  "port-version": 1,
+  "description": "",
+  "homepage": "",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "zstd"
+    }
+  ]
+}
