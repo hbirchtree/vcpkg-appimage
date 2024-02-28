@@ -1,1 +1,12 @@
-{ "default": { "appimage-runtime": { "baseline": "1.0", "port-version": 1 }, "squashfuse": { "baseline": "0.1.105", "port-version": 1 } } }
+{
+  "default": {
+    "appimage-runtime": {
+      "baseline": "1.0",
+      "port-version": 1
+    },
+    "squashfuse": {
+      "baseline": "0.1.105",
+      "port-version": 1
+    }
+  }
+}
