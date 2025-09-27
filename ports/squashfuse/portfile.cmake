@@ -1,7 +1,7 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS https://github.com/vasi/squashfuse/archive/e51978c.tar.gz
+    URLS https://github.com/vasi/squashfuse/archive/0.5.2.tar.gz
     FILENAME squashfuse.tar.gz
-    SHA512 f3b78d23b3c60b23908de6b859a484bce5dc026890ca116e20501666f452f689e579cbf3dadb5966c9dc3506c3ca2f3b97dd20fc72e6fedfb35e1f0a36818fac
+    SHA512 4380d73afa47105e2188a4eebc6b54c5961a2ba38e5986865b7fd762ed0aea7d24b0d9f5b674abd9c29f73a336bd69142db7869a548560723f60559859cdd7f3
 )
 
 vcpkg_extract_source_archive_ex(

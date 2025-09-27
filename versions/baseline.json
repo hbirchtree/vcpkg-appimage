@@ -5,8 +5,8 @@
       "port-version": 2
     },
     "squashfuse": {
-      "baseline": "0.1.105",
-      "port-version": 1
+      "baseline": "0.5.2",
+      "port-version": 2
     }
   }
 }
