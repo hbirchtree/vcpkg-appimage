@@ -1,7 +1,7 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS https://github.com/AppImage/type2-runtime/archive/9594e2b1306a83b1020145f4e4e29c61065536a4.tar.gz
+    URLS https://github.com/AppImage/type2-runtime/archive/61e66889c26d12cf0492a835ff80fed39a14ab77.tar.gz
     FILENAME type2-runtime-main.tar.gz
-    SHA512 5e6a9f09fbfeb2cc6ac55c0f5d43b979e8e67af560968389746605386e0ec21d2a890ff39e7fc319ae682b3557e067339ca9c88daa8522407bbd96239e8569e8
+    SHA512 9643f9d3dc4355dfdb3e1272e301d330fd0997837d48e0ae153ff367f164c5811e37f02aa9a97bf9c12f370d36328c00788082977c0bc988dfc1e54336ac4e18
 )
 
 vcpkg_extract_source_archive_ex(
