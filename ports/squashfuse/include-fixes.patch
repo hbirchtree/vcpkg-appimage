@@ -1,0 +1,12 @@
+diff --git a/fuseprivate.c b/fuseprivate.c
+index 32a9cb4..8673bba 100644
+--- a/fuseprivate.c
++++ b/fuseprivate.c
+@@ -26,6 +26,7 @@
+ 
+ #include <ctype.h>
+ #include <errno.h>
++#include <fcntl.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
