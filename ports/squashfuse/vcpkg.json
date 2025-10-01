@@ -1,7 +1,7 @@
 {
   "name": "squashfuse",
   "version": "0.5.2",
-  "port-version": 3,
+  "port-version": 4,
   "description": "",
   "homepage": "",
   "dependencies": [
