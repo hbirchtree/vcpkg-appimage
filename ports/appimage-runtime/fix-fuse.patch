@@ -1,0 +1,15 @@
+diff --git a/src/runtime/runtime.c b/src/runtime/runtime.c
+index 2fe0261..5b50665 100644
+--- a/src/runtime/runtime.c
++++ b/src/runtime/runtime.c
+@@ -904,8 +904,8 @@ int fusefs_main(int argc, char* argv[], void (* mounted)(void)) {
+     struct fuse_opt fuse_opts[] = {
+             {"offset=%zu", offsetof(sqfs_opts, offset), 0},
+             {"timeout=%u", offsetof(sqfs_opts, idle_timeout_secs), 0},
+-            {"fsname=%s", "squashfuse", 0},
+-            {"subtype=%s", "squashfuse", 0},
++            {"fsname=squashfuse", 0},
++            {"subtype=squashfuse", 0},
+             FUSE_OPT_END
+     };
+ 
